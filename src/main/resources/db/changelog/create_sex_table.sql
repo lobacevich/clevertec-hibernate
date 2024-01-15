@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS person_sex(
+    sex VARCHAR(6) PRIMARY KEY NOT NULL
+);
+
+INSERT INTO person_sex(sex)
+VALUES('MALE'),
+      ('FEMALE');

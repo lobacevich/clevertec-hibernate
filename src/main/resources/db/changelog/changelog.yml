@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/create_houses_table.sql
+  - include:
+      file: db/changelog/create_sex_table.sql
+  - include:
+      file: db/changelog/create_persons_table.sql
+  - include:
+      file: db/changelog/create_person_house_owners_table.sql
